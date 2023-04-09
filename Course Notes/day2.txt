@@ -1,0 +1,52 @@
+Block Level Elemens(<div> , <h1> , <p>, <ul>, <form>)
+
+- Render to begin on a new line (by default)
+- May contain inline or other block-level elements
+- Roughly flow content 
+
+Inline Elements (<a> , <span>, <image> , <input>)
+
+- Render on the same line (by default)
+- May only contain other inline elements
+- Roughly Phrasing Content
+---------------------------------------------------------------------------------------------------------------
+Heading Elements : 
+<h1> , <h2> , <h3> , <h4> , <h5> , <h6> 
+--------------------------------------------------------------------------------------------------------------
+Semantic Html Tags : 
+<article> , <section> , <header> , <nav> , <aside> , <footer> , <figure> 
+---------------------------------------------------------------------------------------------------------------
+Lists in HTML : 
+
+<h1> Menu</h1> 
+<ul> 
+    <li>Breakfast</li>
+    <li>Dinner</li>
+</ul>
+
+<ul> -> Unordered List 
+<ol> -> Ordered List
+
+---------------------------------------------------------------------------------------------------------------
+Character you should always escape 
+
+<                 >            &
+Instead of use 
+&lt;              &gt;         &amp;
+
+Copyright symbol  &copy;
+
+---------------------------------------------------------------------------------------------------------------
+Creating Links 
+
+<a href="http://www.google.com">Google</a>
+<a href="http://www.google.com" target="_blank" >Google</a>   ->  target open this page in new window . 
+
+you can link a section in same window . 
+
+<a href="#description">Description</a>
+
+
+<section id="description"> 
+         .......
+</section>
