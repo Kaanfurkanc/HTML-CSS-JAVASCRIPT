@@ -1,0 +1,27 @@
+-- Browser Sync 
+
+BrowserSync Nedir ? 
+
+ BrowserSync, bir geliştirici aracı olarak kullanılan bir araçtır ve web sayfası geliştirme sürecini hızlandırmak için tasarlanmıştır.
+Bu araç, tarayıcılar arasında otomatik senkronizasyon sağlayarak, tarayıcıların sayfayı yeniden yüklemeleri veya yeniden yüklenmesini gerektiren değişiklikler yapıldığında manuel olarak yeniden yüklemek zorunda kalmadan, anında değişiklikleri gösterir.
+
+ Bu sayede, web sayfalarını test ederken veya düzenlerken sürekli olarak sayfayı yenilemek zorunda kalmazsınız.
+Ayrıca, Birden fazla tarayıcıda ve cihazda test etmek için çoklu cihaz senkronizasyonu sağlar ve CSS, HTML, JavaScript gibi kaynak dosyalarını otomatik olarak yeniden derleyerek, değişikliklerin hemen görüntülenmesini sağlar.
+
+Proje dizininde komut satırına yazılması gereken komut :
+browser-sync start --server --directory --files "*"
+
+Useful websites 
+- Stackoverflow - jsfiddle.net  - Codepen.io
+-------------------------------------------------------------------------------------------------------------------
+HTML Tags 
+
+  <p>           Content      </p> 
+opening tag               closing tag
+
+<br> Line break 
+<hr> Horizontal rule 
+
+<p id = "myId" >    </p>  
+ attribute name and value
+ <p onclick="alert('Hi')"> </p>
